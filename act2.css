@@ -1,0 +1,68 @@
+.mainPanel {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid black;
+}
+.mainMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid black;
+}
+.mainMenu>div {
+    padding: 10px;
+    margin: 15px;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contentPanel {
+    display: flex;
+    flex-flow: row nowrap;
+    border: 1px solid black;
+}
+.leftMenu {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 250px;
+    border: 1px solid black;
+    align-items: center;
+}
+.leftMenu>div {
+    padding: 10px;
+    margin: 15px;
+    background-color: gray;
+    width: 65%;
+    text-align: left;
+    border: 1px solid black;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content {
+    flex-grow: 1;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+}
+.content-body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.flex-container>div {
+    background-color: darkgray;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.card-img {
+    width: 150px;
+    height: 220px;
+}
+
